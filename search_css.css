@@ -1,0 +1,200 @@
+*{
+	border: 1px dotted blue;
+	margin: 0;
+}
+body{
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	line-height: 18px;
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration:none;
+	color:#404040;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.header {
+	background-color: #f1f1f1;
+	border-bottom: 1px solid #e5e5e5;
+	padding: 10px 20px 10px 20px;
+}
+
+.apps, .signIn, form, img{
+	display: inline-block;
+	vertical-align: middle;
+}
+.header img{
+	float: left;
+	vertical-align: middle;
+}
+
+form{
+	float: left;
+	padding: 5px 9px 0 9px;
+	
+}
+	
+.searchField{
+	width: 541px;
+	height: 29px;
+	border: 1px solid #DCDCDC;
+}
+.searchSubmit{
+	color:white;
+	font-weight:bold;
+	border-radius:2px;
+	background-color: rgb(67, 135, 253);
+	padding: 7px 15px;
+}
+
+.apps{
+	float: right;
+	height:30px; width: 30px;
+	background-image: url("https://ssl.gstatic.com/gb/images/i1_71651352.png");
+	background-position:-328px -52px;
+	margin-right:15px;
+}
+
+.signIn{
+	float: right;
+	color:white;
+	font-weight:bold;
+	border-radius:2px;
+	background-color: rgb(67, 135, 253);
+	padding: 7px 15px;
+}
+
+.topNav{
+	padding: 15px 20px 15px 120px; 
+	border-bottom: 1px solid #e5e5e5;
+}
+ul{
+	display: inline-block;
+	float: left;
+	padding: 6px;
+}
+
+.topNav li{
+	display: inline-block;
+	margin-right: 15px;
+}
+.settings{
+	float: right;
+	color:grey;
+	font-weight:bold;
+	border-radius:2px;
+	background-color: #f1f1f1;
+	padding: 7px 15px;
+	display: inline-block;
+}
+
+.numberResults{
+	padding: 15px 0 0 127px;
+
+}
+
+.result{
+	margin: 20px 0 0 127px;
+
+}
+
+
+.link{
+	color: rgb(26, 13, 171);
+	font-size: 18px;
+	display: block;
+}
+.url{
+
+color: rgb(0, 102, 33);
+display: inline-block;
+line-height: 16px;
+}
+
+.url2{
+	display: inline-block;
+}
+
+.related{
+	color: blue;
+
+}
+.images{
+	display: inline-block;
+	width: 512px; 
+	margin: 20px 0 0 127px;
+	padding: 20px 0 20px 0;
+	border-bottom: 1px solid #e5e5e5;
+	border-top: 1px solid #e5e5e5;
+}
+.imageLink{
+	color: rgb(26, 13, 171);
+	font-size: 18px;
+	display: inline-block;
+}
+.imageContainer{
+	width: 125px; height: 91px;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.imageContainer img{
+	width: 125px; height: auto;
+}
+.imageMore{
+	color: rgb(26, 13, 171);
+	font-size: 16px;
+	display: block;
+	font-weight: normal;
+}
+
+.related{
+	list-style-type: none;
+	display: inline-block;
+}
+.related a{
+	color:  rgb(26, 13, 171);
+	line-height: 25px;
+}
+
+.images p{
+	font-size: 18px;
+	color: rgb(128, 128, 128);
+	margin-bottom: 10px;
+}
+
+.footer{
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	height: 40px;
+}	
+
+.footerLinks{
+	display: block;
+	background-color: grey;
+}
+.footerLinks li{
+	display: inline-block;
+	margin-right: 15px; 
+}
+
+
+
+
+
+
+
+
+.cf:after {
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+	clear:both;
+}
